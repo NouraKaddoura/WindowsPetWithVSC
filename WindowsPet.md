@@ -2,20 +2,20 @@
 ### Steps
 
 * Generate a private/public key (if you don't already have one)
-
-  ssh-keygen
-
+```
+ssh-keygen
+```
 * Create your SSH Config file in the **same** folder as the private/public keys
 
 Here is what the SSH Config file should look like (note: the identiyFile need to match your private key):
 
-  Host NouraUbuntuPet
-    HostName 3.135.198.243
-    ForwardAgent yes
-    User ubuntu
-    StrictHostKeyChecking no
-    IdentityFile ~/.ssh/id_rsa 
-
+Host NouraUbuntuPet
+  HostName 3.135.198.243
+  ForwardAgent yes
+  User ubuntu
+  StrictHostKeyChecking no
+  IdentityFile ~/.ssh/id_rsa 
+```
 * Run the following Scripts in Powershell:
 
 ```
