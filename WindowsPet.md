@@ -5,7 +5,7 @@
 ```
 ssh-keygen
 ```
-#### reate your SSH Config file in the **same** folder as the private/public keys on the windows box
+#### Create your SSH Config file in the **same** folder as the private/public keys on the windows box
 
 Here is what the SSH Config file should look like (note: the identiyFile need to match your private key):
 ```
